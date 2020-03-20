@@ -1,0 +1,4 @@
+flask
+loguru
+newsapi-python
+gunicorn
