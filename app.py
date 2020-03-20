@@ -8,7 +8,7 @@ tracker = CoronaTracker()
 # news endpoint : newsapi
 @app.route("/news")
 def get_corona_news():
-    return jsonify({"articles" : tracker.articles})
+    return jsonify({"articles" : tracker.newsapi.articles})
 
 if __name__ == "__main__":
     app.run(debug=True)
