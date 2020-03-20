@@ -1,6 +1,5 @@
 from newsapi import NewsApiClient
-api =
-print(api.get_everything(q='corona'))
+
 
 class CoronaNews(object):
 
